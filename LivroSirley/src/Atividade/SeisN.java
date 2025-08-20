@@ -13,7 +13,7 @@ public class SeisN {
         b = entrada.nextInt();
         System.out.println("Digite o valor de C: ");
         c = entrada.nextInt();
-        res = (a*a) + (b*b) + (c*c)
+        res = (a*a) + (b*b) + (c*c);
         System.out.println("O resultado é: " + res);
         entrada.close();
     }
