@@ -3,23 +3,14 @@ package Atividade;
 import java.util.Scanner;
 
 public class SeisQ {
-        public static void main(String[] args) {
-        System.out.println("Programa para calcular a soma dos quadrados de três números inteiros.");
+    public static void main(String[] args) {
+        System.out.println("Programa para calcular a área de uma circunferência.");
         Scanner entrada = new Scanner(System.in);
-        int a, b, c, soma;
-        
-        System.out.println("Digite o valor de A: ");
-        a = entrada.nextInt();
-        
-        System.out.println("Digite o valor de B: ");
-        b = entrada.nextInt();
-        
-        System.out.println("Digite o valor de C: ");
-        c = entrada.nextInt();
-        
-        soma = (a * a) + (b * b) + (c * c);
-        
-        System.out.println("A soma dos quadrados é: " + soma);
+        double r, a;
+        System.out.println("Digite o raio da circunferência: ");
+        r = entrada.nextDouble();
+        a = 3.14159 * r * r;
+        System.out.println("A área da circunferência é: " + a);
         entrada.close();
     }
 }
