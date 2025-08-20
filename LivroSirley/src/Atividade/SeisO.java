@@ -17,7 +17,6 @@ public class SeisO {
         d = entrada.nextInt();
         p = (a * c);
         s = (b + d);
-        
         System.out.println("O resultado P é: " + p);
         System.out.println("O resultado P é: " + s);
         entrada.close();
