@@ -2,7 +2,7 @@ package Atividade;
 
 import java.util.Scanner;
 
-public class SeisM {
+public class SeisP {
       public static void main(String[] args) {
         System.out.println("Programa para calcular o novo salário com reajuste.");
         Scanner entrada = new Scanner(System.in);
