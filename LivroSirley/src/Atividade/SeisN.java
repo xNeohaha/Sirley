@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class SeisN {
     public static void main(String[] args) {
-        System.out.println("Programa para Calcular o volume de uma caixa triangular.");
+        System.out.println("Programa para A + B + C, resultad no valor quadrado da soma dos três valores.");
         Scanner entrada = new Scanner(System.in);
         int a,b,c,res;
-        System.out.println("Digite o comprimento da caixa: ");
-        cm = entrada.nextInt();
-        System.out.println("Digite a largura da caixa: ");
-        lar = entrada.nextDouble();
-        System.out.println("Digite a altura da caixa: ");
-        alt = entrada.nextDouble();
-        vol = cm * lar * alt;
-        System.out.println("O volume da caixa é: " + vol);
+        System.out.println("Digite o valor de A: ");
+        a = entrada.nextInt();
+        System.out.println("Digite o valor de B: ");
+        b = entrada.nextInt();
+        System.out.println("Digite o valor de C: ");
+        c = entrada.nextInt();
+        res = (a*a) + (b*b) + (c*c)
+        System.out.println("O resultado é: " + res);
         entrada.close();
     }
 }
