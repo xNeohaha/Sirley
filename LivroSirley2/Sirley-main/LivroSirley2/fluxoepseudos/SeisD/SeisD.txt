@@ -1,0 +1,10 @@
+Subprograma Principal
+    Declarar Real temp, vl, dist, lt
+
+    Ler temp
+    Ler vl
+    Atribuir dist <- temp * vl
+    Atribuir lt <- dist/12
+    Escrever dist
+    Escrever lt
+Fim

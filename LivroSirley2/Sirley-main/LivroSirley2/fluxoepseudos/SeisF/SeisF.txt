@@ -1,0 +1,12 @@
+Subprograma Principal
+    Declarar Real a, b, ab
+
+    Ler a
+    Ler b
+    Atribuir ab <- a
+    Atribuir a <- b
+    Atribuir b <- ab
+    Escrever a
+    Escrever b
+    Escrever ab
+Fim

@@ -1,0 +1,10 @@
+Subprograma Principal
+    Declarar Real val, tx, pre
+    Declarar Inteiro temp
+
+    Ler val
+    Ler tx
+    Ler temp
+    Atribuir pre <- val + (val * (tx / 100) * temp)
+    Escrever pre
+Fim
