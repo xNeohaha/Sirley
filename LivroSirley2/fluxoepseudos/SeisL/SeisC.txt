@@ -1,0 +1,8 @@
+Subprograma Principal
+    Declarar Real vol, alt, raio
+
+    Ler raio
+    Ler alt
+    Atribuir vol <- 3.14159 *(raio * raio) * alt
+    Escrever vol
+Fim

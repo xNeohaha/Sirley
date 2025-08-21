@@ -1,0 +1,7 @@
+Subprograma Principal
+    Declarar Real cel, fah
+
+    Ler fah
+    Atribuir cel <- ((fah - 32) * 5/9)
+    Escrever cel
+Fim
